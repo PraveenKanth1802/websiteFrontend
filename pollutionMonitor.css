@@ -1,0 +1,44 @@
+.box {
+  font-family: "Cabin", sans-serif;
+  margin-top: 4rem;
+  display: flex;
+}
+
+.box-1 {
+  border: 3px solid black;
+  padding: 0.5rem;
+  width: 20%;
+}
+.box-1 h2 {
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.box-1 h2:hover {
+  background-color: rgb(2, 119, 27);
+  transition: 0.2s;
+  border-radius: 0.5rem;
+}
+
+.box-2 {
+  width: 80%;
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+.box-2 table tr th {
+  padding: 0.5rem;
+}
+.date {
+  border: 2px solid black;
+  padding: 0.1rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+footer p {
+  margin-top: 3rem;
+}

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 2rem 4rem;
+}
+/*       Header styling         */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  height: 6rem;
+}
+.collegeInfo {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+header h1 {
+  font-size: 3rem;
+}
+header.rmkLogo2 {
+  height: 4rem;
+}
+/*     XXXXXXXXX  Header styling    XXXXXXX     */
+
+/*            Nav Styling              */
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+li {
+  list-style-type: none;
+}
+
+nav {
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+  border-radius: 1rem;
+}
+.nav ul {
+  display: flex;
+}
+li {
+  margin: 0 3rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+li:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+
+/*     XXXXXXXX       Nav Styling      XXXXXX        */
+
+/*              Content Styling            */
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content-box {
+  margin: 2rem 0.5rem;
+  width: 20%;
+  border: 1px solid rgb(2, 92, 85);
+
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.content-box img {
+  border-radius: 0.5rem;
+  width: 14rem;
+  height: 8rem;
+}
+.content-box h4 a {
+  color: darkred;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.content-box p {
+  font-size: 0.8rem;
+  text-align: center;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+/*       XXXXX       Content Styling      XXXXX      */
